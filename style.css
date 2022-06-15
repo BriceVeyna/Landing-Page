@@ -15,9 +15,16 @@ nav {
 .image-box {
     display: block;
     position: relative;
+    top: 150px;
+}
+
+img {
+    width: 50%;
+    height: auto;
 }
 
 .contact-form {
     display: block;
     position: relative;
+    top: 150px;
 }
