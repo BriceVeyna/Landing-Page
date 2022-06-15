@@ -1,0 +1,23 @@
+* {
+
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+}
+
+.image-box {
+    display: block;
+    position: relative;
+}
+
+.contact-form {
+    display: block;
+    position: relative;
+}
