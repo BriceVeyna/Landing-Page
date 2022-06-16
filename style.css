@@ -8,6 +8,7 @@ header {
     top: 45px;
     width: 100%;
     background-color: brown;
+    z-index: 1;
 }
 
 nav {
@@ -51,11 +52,35 @@ img {
     border: solid rgba(128, 128, 128, 0.5) 1px;
 }
 
+.announcment {
+    display: block;
+    position: relative;
+    top: 200px;
+    margin-bottom: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 5px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+#line {
+    display: block;
+    position: relative;
+    top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .contact-form {
     display: block;
     position: relative;
     top: 200px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 30%;
     margin-right: 30%;
     background-color: blanchedalmond;
