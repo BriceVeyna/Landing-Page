@@ -36,14 +36,28 @@ img {
     display: block;
     position: relative;
     top: 200px;
-    margin-top: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
     background-color: blanchedalmond;
     border: solid black 1px;
     border-radius: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    padding: 10px 16px;
+    margin-top: 10px;
 }
 
 footer {
